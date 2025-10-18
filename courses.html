@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Hub - Course Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for star ratings (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">CourseHub</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-secondary">Login</a>
+                <a href="register.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="course-hero">
+            <div class="container">
+                <div class="course-header-content">
+                    <div class="course-info-text">
+                        <h2>Web Development Masterclass: Build 10 Projects</h2>
+                        <p class="course-tagline">Your complete guide to becoming a professional web developer in 2023.</p>
+                        <p class="course-meta">
+                            <span class="instructor">Instructor: Jane Doe</span> |
+                            <span class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.5 (1,234 ratings)
+                            </span>
+                        </p>
+                        <p class="course-price">$49.99</p>
+                        <a href="#" class="btn btn-primary btn-large">Enroll Now</a>
+                    </div>
+                    <div class="course-video">
+                        <img src="img/ss.jpeg" alt="Course Intro Video Placeholder">
+                        <!-- In a real site, this would be an embedded video, e.g., YouTube/Vimeo -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-details">
+            <div class="container course-layout">
+                <div class="course-main-content">
+                    <h3>What You'll Learn</h3>
+                    <ul class="learning-objectives">
+                        <li><i class="fas fa-check-circle"></i> Build responsive websites with HTML5 and CSS3.</li>
+                        <li><i class="fas fa-check-circle"></i> Master JavaScript for interactive web applications.</li>
+                        <li><i class="fas fa-check-circle"></i> Understand front-end frameworks like React or Vue.</li>
+                        <li><i class="fas fa-check-circle"></i> Develop back-end APIs with Node.js and Express.</li>
+                        <li><i class="fas fa-check-circle"></i> Deploy web applications to cloud platforms.</li>
+                    </ul>
+
+                    <h3>Course Description</h3>
+                    <p>This comprehensive Web Development Masterclass is designed for complete beginners as well as those looking to solidify their understanding of modern web development practices. You'll start with the basics of HTML and CSS, progressing to advanced JavaScript concepts, front-end frameworks, and back-end development. By the end of this course, you'll have built a portfolio of 10 real-world projects, making you job-ready.</p>
+                    <p>We'll cover:</p>
+                    <ul>
+                        <li>The Document Object Model (DOM) manipulation</li>
+                        <li>Asynchronous JavaScript (Promises, Async/Await)</li>
+                        <li>State management in front-end applications</li>
+                        <li>Database integration (MongoDB)</li>
+                        <li>Authentication and Authorization</li>
+                    </ul>
+
+                    <h3>Course Curriculum</h3>
+                    <div class="curriculum">
+                        <div class="module">
+                            <h4>Module 1: Introduction to Web Development</h4>
+                            <ul>
+                                <li>Lesson 1.1: How the Web Works</li>
+                                <li>Lesson 1.2: Setting Up Your Development Environment</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Module 2: HTML5 Essentials</h4>
+                            <ul>
+                                <li>Lesson 2.1: Semantic HTML</li>
+                                <li>Lesson 2.2: Forms and Input Types</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Module 3: Styling with CSS3</h4>
+                            <ul>
+                                <li>Lesson 3.1: CSS Selectors and Properties</li>
+                                <li>Lesson 3.2: Responsive Design with Flexbox and Grid</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Module 4: JavaScript Fundamentals</h4>
+                            <ul>
+                                <li>Lesson 4.1: Variables, Data Types, and Operators</li>
+                                <li>Lesson 4.2: Control Flow and Functions</li>
+                            </ul>
+                        </div>
+                        <!-- Add more modules as needed -->
+                    </div>
+
+                    <h3>Instructor</h3>
+                    <div class="instructor-bio">
+                        <img src="img/1.webp" alt="Instructor Jane Doe">
+                        <div>
+                            <h4>Jane Doe</h4>
+                            <p>Jane Doe is a senior full-stack developer with over 10 years of experience building scalable web applications. She's passionate about teaching and has helped thousands of students launch their careers in tech.</p>
+                            <a href="#">View Instructor Profile</a>
+                        </div>
+                    </div>
+
+                    <h3>Student Reviews</h3>
+                    <div class="reviews">
+                        <div class="review-card">
+                            <p class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p class="review-text">"An amazing course! Very thorough and Jane explains complex topics clearly."</p>
+                            <span class="reviewer-name">- Alex M.</span>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p class="review-text">"I learned so much. Highly recommend for anyone serious about web dev."</p>
+                            <span class="reviewer-name">- Sarah K.</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <aside class="course-sidebar">
+                    <div class="sidebar-box">
+                        <h4>Course Includes:</h4>
+                        <ul>
+                            <li><i class="fas fa-video"></i> 20 hours of on-demand video</li>
+                            <li><i class="fas fa-file-alt"></i> 50 downloadable resources</li>
+                            <li><i class="fas fa-code"></i> Coding exercises</li>
+                            <li><i class="fas fa-infinity"></i> Full lifetime access</li>
+                            <li><i class="fas fa-certificate"></i> Certificate of completion</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-box">
+                        <h4>Requirements:</h4>
+                        <ul>
+                            <li>Basic computer literacy</li>
+                            <li>No prior programming experience needed</li>
+                            <li>A desire to learn!</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 CourseHub. All rights reserved.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
